@@ -1,0 +1,211 @@
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #222222;
+    color: #AFAFAF;
+    font-family: Verdana;
+}
+button{
+	background-color: #222222;
+}
+header {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 55px;
+}
+header > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-left {
+    width: 900px;
+}
+.header-left a:hover {
+    margin-left: 30px;
+    color:darkorchid;
+}
+.logo {
+    margin-right: 35px;
+}
+.header-right {
+    width: 50px;
+    justify-content: space-between;
+}
+main {
+    width: 960px;
+    height: 560px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.main-left {
+    width: 440px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.main-right {
+    width: 440px;
+    height: 440px;
+    background-image: url(backgrounds/moon-rocket.png);
+    background-repeat: no-repeat;
+}
+.main-left a {
+    background-color: #FFCB06;
+    width: 240px;
+    height: 32px;
+    color: #222222;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 18px;
+}
+.advantages {
+    width: 960px;
+    margin: auto;
+    height: 330px;
+    display: flex;
+    justify-content: space-between; 
+}
+.advantages div {
+    width: 180px;
+    margin-top: 90px;
+}
+.cont {
+    width: 100%;
+    height: 328px;
+    background-color: #131313;
+}
+.cont-white {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 850px;
+}
+.content {
+    width: 960px;
+    margin: auto;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+.content > div {
+    margin-top: 83px;
+    width: 600px;
+    height: 740px;
+}
+.content span {
+    font-weight: bold;
+}
+h3 {
+    font-family: Courier;
+    font-size: 24pt;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+h1 {
+    font-family: Courier;
+    font-size: 45pt;
+    font-weight: bold;
+    color: white;
+}
+.take_list {
+    margin-top: 75px;
+}
+.take-list-u {
+    display: flex;
+    height: 180px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.right-content p {
+    font-size: 14px;
+}
+li {
+    color: #FFCB06;
+}
+
+li > p {
+    color: black;
+}
+.cont-form {
+    width: 100%;
+    height: 477px;
+    background-color: #F0F0F0;
+}
+.form {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #222222;
+}
+.form-right {
+    width: 440px;
+    margin-top: 90px;
+}
+.form-left {
+    width: 440px;
+    margin-top: 90px;
+    padding-right: 0px;
+}
+.form-left p {
+    margin-top: 44px;
+    font-family: sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.inp-area {
+    display: inline-block;
+    height: 50px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+}
+li > p::before {
+    display: inline-block;
+    content: '';
+    background-image: url(backgrounds/marker.png);
+    width: 8px;
+    height: 8px;
+    margin-right: 18px;
+}
+form input {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.sub-btn {
+    background-color: #222222;
+    width: 215px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.sub-btn img {
+    margin-left: 45px;
+}
+.sub-btn a:hover{
+    color:deeppink;
+}
+table{
+	background-color: #222222;
+}
